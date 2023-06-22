@@ -1,0 +1,13 @@
+[2023-06-22 04:04:31] glpiphplog.WARNING: Test logger  
+[2023-06-22 04:04:55] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: Unknown database 'glpi' in C:\laragon\www\glpi\install\install.php at line 319
+  Backtrace :
+  install\install.php:319                            mysqli->select_db()
+  install\install.php:600                            step4()
+  
+[2023-06-22 04:05:06] glpiphplog.WARNING: Test logger  
+[2023-06-22 04:05:19] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: Unknown database 'glpis' in C:\laragon\www\glpi\install\install.php at line 319
+  Backtrace :
+  install\install.php:319                            mysqli->select_db()
+  install\install.php:600                            step4()
+  
+[2023-06-22 04:05:50] glpiphplog.WARNING: Test logger  
